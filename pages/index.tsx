@@ -58,7 +58,7 @@ export default function Home() {
                     <button className="w-[165px] h-[46.31px] bg-[#CF5BFF] bg-opacity-20 mx-72 mt-6">See More</button>
                 </div>
                 <div className="pt-52 text-center">
-                    <h1 className="text-[38px] mx-16 leading-10">"Do you want to be right or do you want to make money?</h1>
+                    <h1 className="text-[38px] mx-16 leading-10">"Do you want to be right or do you want to make money ?</h1>
                     <h1 className="text-[#CF5BFF] text-[24px] pt-3">Darwan 2023</h1>
                 </div>
             </div>
