@@ -26,6 +26,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.font {
+  font-family: Pragmatica;
+  font-weight: bold;
+  src: url("../assets/font/PragmaticaMedium.otf") format("opentype");
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
