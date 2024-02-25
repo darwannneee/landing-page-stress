@@ -1,5 +1,3 @@
-import { Inter } from "next/font/google";
-
 import Banner from "../assets/img/Home/banner.png"
 import Banner2 from "../assets/img/Home/banner2.png"
 import Banner3 from "../assets/img/Home/Banner3.png"
