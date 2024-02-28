@@ -24,10 +24,10 @@ export default function Home() {
                         <img src={GithubImage.src} alt="Github" className="2xl:w-20" />
                     </div>
                     <div className="w-[72px] h-[72px] 2xl:w-[130px] 2xl:h-[130px] rounded-full bg-[#D9D9D9] grid place-items-center">
-                        <img src={DiscordImage.src} alt="Discord"  className="2xl:w-20" />
+                        <img src={DiscordImage.src} alt="Discord"  className="w-16" />
                     </div>
                     <div className="w-[72px] h-[72px] 2xl:w-[130px] 2xl:h-[130px] rounded-full bg-[#D9D9D9] grid place-items-center">
-                        <img src={TwitterImage.src} alt="Twitter"  className="2xl:w-20" />
+                        <img src={TwitterImage.src} alt="Twitter"  className="w-12" />
                     </div>
                 </div>
         </div>
