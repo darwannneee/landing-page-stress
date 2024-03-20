@@ -36,41 +36,40 @@ export default function Home() {
                 </div>
             </div>
         </div>
-    <div className="flex items-center justify-center w-full h-screen bg-center bg-cover bg-black" style={{backgroundImage: `url(${Banner2.src})`}}>
-        <div className="">
-            <div className="mx-6 md:mx-[440px] text-white">
-                <h1 className="text-3xl md:text-5xl 2xl:text-7xl">What is</h1>
-                <h1 className="text-5xl md:text-8xl 2xl:text-9xl">STRESS <span className="text-[#CF5BFF]">CAPITAL?</span></h1>
-            </div>
-            <div className="mx-6 md:mx-[210px] text-white pt-5 2xl:mx-[420px]">
-                <h1 className="text-xs md:text-base 2xl:text-xl">Stress Capital, headquartered in Indonesia, is a dynamic decentralized autonomous organization (DAO) specializing in the crypto and NFT sectors. Our primary goal is to facilitate the inclusion of Indonesian individuals into the cryptocurrency space by offering educational resources on the broader crypto ecosystem and fostering participation in international projects. Our diverse team of 32 professionals, including the founder, admin, moderator, and collaboration manager, works cohesively to achieve these objectives.</h1>
-                <div className="text-center">
-                    <button className="w-32 md:w-[165px] 2xl:w-[365px] h-10 md:h-[46.31px] 2xl:h-[56px] bg-[#CF5BFF] bg-opacity-20 mt-3 2xl:mt-8 rounded-xl 2xl:text-xl ">See More</button>
+        <div className="flex items-center justify-center w-full h-screen bg-center bg-cover bg-black" style={{backgroundImage: `url(${Banner2.src})`}}>
+            <div className="">
+                <div className="mx-6 md:mx-[440px] text-white">
+                    <h1 className="text-3xl md:text-5xl 2xl:text-7xl">What is</h1>
+                    <h1 className="text-5xl md:text-8xl 2xl:text-9xl">STRESS <span className="text-[#CF5BFF]">CAPITAL?</span></h1>
                 </div>
-               
-            </div>      
-        </div>
-    </div>
-    <div className="w-full h-screen bg-center bg-cover left-0 top-0" style={{backgroundImage: `url(${Banner3.src})`}}>
-        <div className="mx-4 md:mx-24 text-white pt-24">
-            <h1 className="text-2xl md:text-[25px] 2xl:text-4xl font-bold text-center">Latest News</h1>
-            <div className="pt-4 md:pt-8 mx-4 md:mx-60">
-                <h1 className="text-sm md:text-[16px] 2xl:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet iusto quod eius voluptas maxime blanditiis officia reiciendis dolorem accusamus?</h1>
-                <div className="flex pt-2">
-                    <h1 className="text-xs md:text-[12px] 2xl:text-xl text-[#CF5BFF]">Darwan | Posted 12hrs ago</h1> 
-                    <hr className="border-t-2 border-[#CF5BFF] ml-4 w-[490px] my-auto" />  
-                </div>
-                <div className="flex justify-center mt-2 md:mt-6">
-                    <button className="w-32 md:w-[165px] 2xl:w-[265px] h-10 md:h-[46.31px] 2xl:h-[56px] bg-[#CF5BFF] bg-opacity-20 rounded-xl 2xl:text-xl">See More</button>
-                </div>
-            </div>
-            <div className="pt-28 md:pt-52 2xl:pt-96 text-center">
-                <h1 className="text-4xl md:text-[38px] mx-4 md:mx-16 leading-10 2xl:text-7xl">&quot;Do you want to be right or do you want to make money ?&quot;</h1>
-                <h1 className="text-2xl md:text-[24px] 2xl:text-4xl text-[#CF5BFF] pt-3 2xl:pt-7">Darwan 2023</h1>
+                <div className="mx-6 md:mx-[210px] text-white pt-5 2xl:mx-[420px]">
+                    <h1 className="text-xs md:text-base 2xl:text-xl">Stress Capital, headquartered in Indonesia, is a dynamic decentralized autonomous organization (DAO) specializing in the crypto and NFT sectors. Our primary goal is to facilitate the inclusion of Indonesian individuals into the cryptocurrency space by offering educational resources on the broader crypto ecosystem and fostering participation in international projects. Our diverse team of 32 professionals, including the founder, admin, moderator, and collaboration manager, works cohesively to achieve these objectives.</h1>
+                    <div className="text-center">
+                        <button className="w-32 md:w-[165px] 2xl:w-[365px] h-10 md:h-[46.31px] 2xl:h-[56px] bg-[#CF5BFF] bg-opacity-20 mt-3 2xl:mt-8 rounded-xl 2xl:text-xl ">See More</button>
+                    </div>
+                
+                </div>      
             </div>
         </div>
-    </div>
-
+        <div className="w-full h-screen bg-center bg-cover left-0 top-0" style={{backgroundImage: `url(${Banner3.src})`}}>
+            <div className="mx-4 md:mx-24 text-white pt-24">
+                <h1 className="text-2xl md:text-[25px] 2xl:text-4xl font-bold text-center">Latest News</h1>
+                <div className="pt-4 md:pt-8 mx-4 md:mx-60">
+                    <h1 className="text-sm md:text-[16px] 2xl:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet iusto quod eius voluptas maxime blanditiis officia reiciendis dolorem accusamus?</h1>
+                    <div className="flex pt-2">
+                        <h1 className="text-xs md:text-[12px] 2xl:text-xl text-[#CF5BFF]">Darwan | Posted 12hrs ago</h1> 
+                        <hr className="border-t-2 border-[#CF5BFF] ml-4 w-[490px] my-auto" />  
+                    </div>
+                    <div className="flex justify-center mt-2 md:mt-6">
+                        <button className="w-32 md:w-[165px] 2xl:w-[265px] h-10 md:h-[46.31px] 2xl:h-[56px] bg-[#CF5BFF] bg-opacity-20 rounded-xl 2xl:text-xl">See More</button>
+                    </div>
+                </div>
+                <div className="pt-28 md:pt-52 2xl:pt-96 text-center">
+                    <h1 className="text-4xl md:text-[38px] mx-4 md:mx-16 leading-10 2xl:text-7xl">&quot;Do you want to be right or do you want to make money ?&quot;</h1>
+                    <h1 className="text-2xl md:text-[24px] 2xl:text-4xl text-[#CF5BFF] pt-3 2xl:pt-7">Darwan 2023</h1>
+                </div>
+            </div>
+        </div>
    </main>
 
 )
