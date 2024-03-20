@@ -199,9 +199,9 @@ export default function About() {
                         </div>
                     </div>
                     {/* Contact */}
-                    <div className="pt-40 text-white mx-8">
+                    <div className="pt-40 text-white mx-83">
                                 <h1 className="text-center text-[32px] leading-9">Feel free to contact us for any inquiries. <br />Our team will never ask for private informations. </h1>
-                                <h1 className="text-center text-[26px] py-10">"Don't trust, <span className="text-[#CF5BFF]">verify</span>" </h1>
+                                <h1 className="text-center text-[26px] py-10">&quot;Don&apos;t trust, <span className="text-[#CF5BFF]">verify</span>&quot; </h1>
                     </div>
                 </div>
         </main>
