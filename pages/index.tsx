@@ -3,6 +3,7 @@ import Banner2 from "../assets/img/Home/banner2.png"
 import Banner3 from "../assets/img/Home/Banner3.png"
 import StressCapital from "../assets/img/Home/stress.png"
 // import Navbar from "./Navbar";
+import Navbar from "../components/Navbar"
 
 // Import Image
 import GithubImage from "../assets/img/Home/github.png"
@@ -15,8 +16,11 @@ const myFont = localFont({src : '../assets/font/HelveticaMedExt.ttf'})
 
 export default function Home() {
   return (
+    // Navbar 
+
     /* banner new 1 */
     <main className={myFont.className}>
+        <Navbar />
         <div className="w-full h-screen bg-center bg-cover md:left-0 md:top-0" style={{backgroundImage: `url(${Banner.src})`}}>
             <div>
             <div className="absolute inset-0 flex items-center justify-center">

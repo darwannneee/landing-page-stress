@@ -2,6 +2,7 @@ import Banner from "../../assets/img/Home/banner.png"
 import Banner2 from "../../assets/img/Home/banner2.png"
 import StressCapital from "../../assets/img/Home/stress.png"
 import LogoFinal from "../../assets/img/Home/logo_final.png"
+import Navbar from "../../components/Navbar"
 
 // Import Image
 import GithubImage from "../../assets/img/Home/github.png"
@@ -15,8 +16,9 @@ const myFont = localFont({src : '../../assets/font/HelveticaMedExt.ttf'})
 export default function About() {
     return (
         <main className={myFont.className} style={{backgroundColor: `#0F0F10`}}>
+            <Navbar />
             <div className="w-full h-screen bg-center bg-cover md:left-0 md:top-0" style={{backgroundImage: `url(${Banner.src})`}}>
-                <div className="pt-10 justify-center md:flex items-center text-center md:text-left">
+                <div className="pt-16 md:pt-20 2xl:pt-28 justify-center md:flex items-center text-center md:text-left">
                     <img src={LogoFinal.src} className="w-48 md:w-56 md:h-56 mx-auto md:mx-0"/>
                     <div className="">
                         <h1 className="text-3xl md:text-6xl text-white">STRESS <br /> 
@@ -26,15 +28,15 @@ export default function About() {
                 </div>
                 
 
-                <div className="bg-[#272727] md:w-[1103px] md:h-[463px] w-96 mx-auto bg-opacity-75 rounded-2xl">
-                    <div className="text-white md:mx-12 mx-8 py-8" >
+                <div className="bg-[#272727] md:w-[1103px] md:h-[463px] 2xl:w-[1800px] 2xl:h-[850px] w-96 mx-auto bg-opacity-75 rounded-2xl">
+                    <div className="text-white md:mx-12 mx-8 py-8 2xl:py-10" >
                         <div className="">
-                            <h1 className="md:text-[40px] text-4xl">What is...</h1>
-                            <h1 className="md:text-[12px] text-xs mx-2 pt-2 md:pt-0">Stress Capital, headquartered in Indonesia, is a dynamic decentralized autonomous organization DAO specializing in the crypto and NFT sectors. Our primary goal is to facilitate the inclusion of Indonesian individuals into the cryptocurrency space by offering educational resources on the broader crypto ecosystem and fostering participation in international projects. Our diverse team of 32 professionals, including the founder, admin, moderator, and collaboration manager, works cohesively to achieve these objectives.</h1>
+                            <h1 className="md:text-[40px] text-4xl 2xl:text-6xl">What is...</h1>
+                            <h1 className="md:text-[12px] text-xs mx-2 pt-2 md:pt-0 2xl:text-xl 2xl:pt-4">Stress Capital, headquartered in Indonesia, is a dynamic decentralized autonomous organization DAO specializing in the crypto and NFT sectors. Our primary goal is to facilitate the inclusion of Indonesian individuals into the cryptocurrency space by offering educational resources on the broader crypto ecosystem and fostering participation in international projects. Our diverse team of 32 professionals, including the admin, moderator, and collaboration manager, works cohesively to achieve these objectives.</h1>
                         </div>
                         <div className="pt-8">
-                            <h1 className="md:text-[40px] text-4xl">Our History</h1>
-                            <h1 className="md:text-[12px] text-xs mx-2 pt-2 md:pt-0">Stress Capital, headquartered in Indonesia, is a dynamic decentralized autonomous organization (DAO) specializing in the crypto and NFT sectors. Our primary goal is to facilitate the inclusion of Indonesian individuals into the cryptocurrency space by offering educational resources on the broader crypto ecosystem and fostering participation in international projects. Our diverse team of 32 professionals, including the founder, admin, moderator, and collaboration manager, works cohesively to achieve these objectives.
+                            <h1 className="md:text-[40px] text-4xl 2xl:text-6xl">Our History</h1>
+                            <h1 className="md:text-[12px] text-xs mx-2 pt-2 md:pt-0 2xl:text-xl 2xl:pt-4">Stress Capital, headquartered in Indonesia, is a dynamic decentralized autonomous organization (DAO) specializing in the crypto and NFT sectors. Our primary goal is to facilitate the inclusion of Indonesian individuals into the cryptocurrency space by offering educational resources on the broader crypto ecosystem and fostering participation in international projects. Our diverse team of 32 professionals, including the founder, admin, moderator, and collaboration manager, works cohesively to achieve these objectives.
                             <br />
                             <br />
                             Stress Capital, headquartered in Indonesia, is a dynamic decentralized autonomous organization (DAO) specializing in the crypto and NFT sectors. Our primary goal is to facilitate the inclusion of Indonesian individuals into the cryptocurrency space by offering educational resources on the broader crypto ecosystem and fostering participation in international projects. Our diverse team of 32 professionals, including the founder, admin, moderator, and collaboration manager, works cohesively to achieve these objectives.</h1>
@@ -199,9 +201,9 @@ export default function About() {
                         </div>
                     </div>
                     {/* Contact */}
-                    <div className="pt-40 text-white mx-83">
-                                <h1 className="text-center text-[32px] leading-9">Feel free to contact us for any inquiries. <br />Our team will never ask for private informations. </h1>
-                                <h1 className="text-center text-[26px] py-10">&quot;Don&apos;t trust, <span className="text-[#CF5BFF]">verify</span>&quot; </h1>
+                    <div className="pt-40 text-white mx-8">
+                                <h1 className="text-center text-[32px] leading-9 2xl:text-[49px] 2xl:leading-[56px]">Feel free to contact us for any inquiries. <br />Our team will never ask for private informations. </h1>
+                                <h1 className="text-center text-[26px]  2xl:text-[39px] py-10">&quot;Don&apos;t trust, <span className="text-[#CF5BFF]">verify</span>&quot; </h1>
                     </div>
                 </div>
         </main>
