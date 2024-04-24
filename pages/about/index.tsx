@@ -3,6 +3,8 @@ import Banner2 from "../../assets/img/Home/banner2.png"
 import StressCapital from "../../assets/img/Home/stress.png"
 import LogoFinal from "../../assets/img/Home/logo_final.png"
 import Navbar from "../../components/Navbar"
+import TeamData from "../../public/data/team.json"
+import ModeratorData from "../../public/data/moderator.json"
 
 // Import Image
 import GithubImage from "../../assets/img/Home/github.png"
@@ -27,7 +29,6 @@ export default function About() {
                     </div>
                 </div>
                 
-
                 <div className="bg-[#272727] md:w-[1103px] md:h-[463px] 2xl:w-[1800px] 2xl:h-[850px] w-96 mx-auto bg-opacity-75 rounded-2xl">
                     <div className="text-white md:mx-12 mx-8 py-8 2xl:py-10" >
                         <div className="">
@@ -64,38 +65,21 @@ export default function About() {
                         </div>
 
                         {/* List People Founder */}
-                        <div className="md:flex mt-5">
+                        <div className="md:grid grid-cols-4 mt-5 gap-8">
                             {/* People */}
-                            <div className="w-[180px]">
-                                <div className="w-[180px] h-[180px] bg-white" />
+                            {TeamData.map((item, index) => (
+                            <div className="">
+                                <div className="" />
+                                    <img src={item.url_profile} className="w-[180px] h-[180px] bg-center bg-cover"/>
                                     <div className="flex pt-2">
-                                        <h1 className="text-sm flex-grow">John Doe</h1>
+                                        <h1 className="text-sm flex-auto">{item.name}</h1>
                                         <div className="flex">
                                             <img src={DiscordImage.src} className="w-5 h-5 filter brightness-0 invert"/>
-                                            <img src={TwitterImage.src} className="w-5 h-5 filter brightness-0 invert"/>
+                                            <img src={TwitterImage.src} className="w-5 h-5 filter brightness-0 invert mr-5"/>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-[180px] md:ml-8">
-                                    <div className="w-[180px] h-[180px] bg-white" />
-                                    <div className="flex pt-2">
-                                        <h1 className="text-sm flex-grow">John Doe</h1>
-                                        <div className="flex">
-                                            <img src={DiscordImage.src} className="w-5 h-5 filter brightness-0 invert"/>
-                                            <img src={TwitterImage.src} className="w-5 h-5 filter brightness-0 invert"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="w-[180px] md:ml-8">
-                                    <div className="w-[180px] h-[180px] bg-white" />
-                                    <div className="flex pt-2">
-                                        <h1 className="text-sm flex-grow">John Doe</h1>
-                                        <div className="flex">
-                                            <img src={DiscordImage.src} className="w-5 h-5 filter brightness-0 invert"/>
-                                            <img src={TwitterImage.src} className="w-5 h-5 filter brightness-0 invert"/>
-                                        </div>
-                                    </div>
-                                </div>
+                            ))}
                             </div>
                         </div>
 
@@ -115,38 +99,21 @@ export default function About() {
                         </div>
 
                         {/* List People Founder */}
-                        <div className="md:flex mt-5">
+                        <div className="md:grid grid-cols-4 mt-5 gap-8">
                             {/* People */}
-                            <div className="w-[180px]">
-                                <div className="w-[180px] h-[180px] bg-white" />
+                            {ModeratorData.map((moderator, index) => (
+                            <div className="">
+                                <div className="w-[180px]" />
+                                <img src={moderator.url_profile} className="w-[180px] h-[180px] bg-center bg-cover"/>
                                     <div className="flex pt-2">
-                                        <h1 className="text-sm flex-grow">John Doe</h1>
+                                        <h1 className="text-sm flex-grow">{moderator.name}</h1>
                                         <div className="flex">
                                             <img src={DiscordImage.src} className="w-5 h-5 filter brightness-0 invert"/>
                                             <img src={TwitterImage.src} className="w-5 h-5 filter brightness-0 invert"/>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-[180px] md:ml-8">
-                                    <div className="w-[180px] h-[180px] bg-white" />
-                                    <div className="flex pt-2">
-                                        <h1 className="text-sm flex-grow">John Doe</h1>
-                                        <div className="flex">
-                                            <img src={DiscordImage.src} className="w-5 h-5 filter brightness-0 invert"/>
-                                            <img src={TwitterImage.src} className="w-5 h-5 filter brightness-0 invert"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="w-[180px] md:ml-8">
-                                    <div className="w-[180px] h-[180px] bg-white" />
-                                    <div className="flex pt-2">
-                                        <h1 className="text-sm flex-grow">John Doe</h1>
-                                        <div className="flex">
-                                            <img src={DiscordImage.src} className="w-5 h-5 filter brightness-0 invert"/>
-                                            <img src={TwitterImage.src} className="w-5 h-5 filter brightness-0 invert"/>
-                                        </div>
-                                    </div>
-                                </div>
+                            ))}
                             </div>
                         </div>
 

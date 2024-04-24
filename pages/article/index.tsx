@@ -26,27 +26,27 @@ export default function Article() {
                         {/* Article */}
                         <div className="pt-10 2xl:pt-16">
                             {/* Title */}
-                            <h1 className="text-lg md:text-2xl leading-6 2xl:text-4xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+                            <a className="text-lg md:text-2xl leading-6 2xl:text-4xl hover:text-[#CF5BFF] hover:bg-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
                             {/* Name */}
                             <h1 className="text-xs md:text-sm pt-2 2xl:text-xl text-[#CF5BFF]">John Doe | Posted 14h ago</h1>
                         </div>
                         <div className="pt-10 2xl:pt-16">
                             {/* Title */}
-                            <h1 className="text-lg md:text-2xl leading-6 2xl:text-4xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
-                            {/* Name */}
-                            <h1 className="text-xs md:text-sm pt-2 2xl:text-xl text-[#CF5BFF]">John Doe | Posted 14h ago</h1>
-                        </div>
-                        {/* Article */}
-                        <div className="pt-10 2xl:pt-16">
-                            {/* Title */}
-                            <h1 className="text-lg md:text-2xl leading-6 2xl:text-4xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+                            <a className="text-lg md:text-2xl leading-6 2xl:text-4xl hover:text-[#CF5BFF] hover:bg-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
                             {/* Name */}
                             <h1 className="text-xs md:text-sm pt-2 2xl:text-xl text-[#CF5BFF]">John Doe | Posted 14h ago</h1>
                         </div>
                         {/* Article */}
                         <div className="pt-10 2xl:pt-16">
                             {/* Title */}
-                            <h1 className="text-lg md:text-2xl leading-6 2xl:text-4xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+                            <a className="text-lg md:text-2xl leading-6 2xl:text-4xl hover:text-[#CF5BFF] hover:bg-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+                            {/* Name */}
+                            <h1 className="text-xs md:text-sm pt-2 2xl:text-xl text-[#CF5BFF]">John Doe | Posted 14h ago</h1>
+                        </div>
+                        {/* Article */}
+                        <div className="pt-10 2xl:pt-16">
+                            {/* Title */}
+                            <a className="text-lg md:text-2xl leading-6 2xl:text-4xl hover:text-[#CF5BFF] hover:bg-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
                             {/* Name */}
                             <h1 className="text-xs md:text-sm pt-2 2xl:text-xl text-[#CF5BFF]">John Doe | Posted 14h ago</h1>
                         </div>

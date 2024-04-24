@@ -47,9 +47,11 @@ export default function Home() {
                     <h1 className="text-5xl md:text-8xl 2xl:text-9xl">STRESS <span className="text-[#CF5BFF]">CAPITAL?</span></h1>
                 </div>
                 <div className="mx-6 md:mx-[210px] text-white pt-5 2xl:mx-[420px]">
-                    <h1 className="text-xs md:text-base 2xl:text-xl">Stress Capital, headquartered in Indonesia, is a dynamic decentralized autonomous organization (DAO) specializing in the crypto and NFT sectors. Our primary goal is to facilitate the inclusion of Indonesian individuals into the cryptocurrency space by offering educational resources on the broader crypto ecosystem and fostering participation in international projects. Our diverse team of 32 professionals, including the founder, admin, moderator, and collaboration manager, works cohesively to achieve these objectives.</h1>
+                    <h1 className="text-xs md:text-base 2xl:text-xl">Stress Capital, headquartered in Indonesia, is a dynamic decentralized autonomous organization (DAO) specializing in the crypto and NFT sectors. Our primary goal is to facilitate the inclusion of Indonesian individuals into the cryptocurrency space by offering educational resources on the broader crypto ecosystem and fostering participation in international projects. Our diverse team of 32 professionals, including the admin, moderator, and collaboration manager, works cohesively to achieve these objectives.</h1>
                     <div className="text-center">
-                        <button className="w-32 md:w-[165px] 2xl:w-[365px] h-10 md:h-[46.31px] 2xl:h-[56px] bg-[#CF5BFF] bg-opacity-20 mt-3 2xl:mt-8 rounded-xl 2xl:text-xl ">See More</button>
+                        <a href="/about">
+                            <button className="w-32 md:w-[165px] 2xl:w-[365px] h-10 md:h-[46.31px] 2xl:h-[56px] bg-[#CF5BFF] bg-opacity-20 mt-3 2xl:mt-8 rounded-xl 2xl:text-xl ">See More</button>
+                        </a>
                     </div>
                 
                 </div>      
@@ -65,7 +67,9 @@ export default function Home() {
                         <hr className="border-t-2 border-[#CF5BFF] ml-4 w-[490px] my-auto" />  
                     </div>
                     <div className="flex justify-center mt-2 md:mt-6">
-                        <button className="w-32 md:w-[165px] 2xl:w-[265px] h-10 md:h-[46.31px] 2xl:h-[56px] bg-[#CF5BFF] bg-opacity-20 rounded-xl 2xl:text-xl">See More</button>
+                        <a href="/article">
+                            <button className="w-32 md:w-[165px] 2xl:w-[265px] h-10 md:h-[46.31px] 2xl:h-[56px] bg-[#CF5BFF] bg-opacity-20 rounded-xl 2xl:text-xl">See More</button>
+                        </a>
                     </div>
                 </div>
                 <div className="pt-28 md:pt-52 2xl:pt-96 text-center">
