@@ -67,7 +67,7 @@ export default function About() {
                         {/* List People Founder */}
                         <div className="md:grid grid-cols-4 mt-5 gap-8">
                             {/* People */}
-                            {TeamData.map((item, index) => (
+                            {TeamData.map((item) => (
                             <div className="">
                                 <div className="" />
                                     <img src={item.url_profile} className="w-[180px] h-[180px] bg-center bg-cover"/>
@@ -101,7 +101,7 @@ export default function About() {
                         {/* List People Founder */}
                         <div className="md:grid grid-cols-4 mt-5 gap-8">
                             {/* People */}
-                            {ModeratorData.map((moderator, index) => (
+                            {ModeratorData.map((moderator) => (
                             <div className="">
                                 <div className="w-[180px]" />
                                 <img src={moderator.url_profile} className="w-[180px] h-[180px] bg-center bg-cover"/>
