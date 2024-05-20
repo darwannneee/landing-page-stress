@@ -68,7 +68,7 @@ export default function About() {
                         <div className="md:grid grid-cols-4 mt-5 gap-8">
                             {/* People */}
                             {TeamData.map((item) => (
-                            <div className="">
+                            <div key={item.discord}>
                                 <div className="" />
                                     <img src={item.url_profile} className="w-[180px] h-[180px] bg-center bg-cover"/>
                                     <div className="flex pt-2">
@@ -102,7 +102,7 @@ export default function About() {
                         <div className="md:grid grid-cols-4 mt-5 gap-8">
                             {/* People */}
                             {ModeratorData.map((moderator) => (
-                            <div className="">
+                            <div key={moderator.discord}>
                                 <div className="w-[180px]" />
                                 <img src={moderator.url_profile} className="w-[180px] h-[180px] bg-center bg-cover"/>
                                     <div className="flex pt-2">
