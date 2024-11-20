@@ -27,10 +27,11 @@ function Header() {
         </div>
 
         <div className={`${isOpen ? 'block' : 'hidden'} md:flex flex-col md:flex-row justify-between w-full md:items-center border md:border-none mb-2 md:mb-0 2xl:pt-5`}>
-          <div className="flex flex-col md:flex-row mx-auto">
-            <a href="/" className="block px-6 py-2 fontLoginn md:text-1xl 2xl:text-2xl md:px-28 2xl:px-60">Home</a>
-            <a href="/about" className="block px-6 py-2 fontLoginn md:text-1xl 2xl:text-2xl md:px-28 2xl:px-60">About</a>
-            <a href="/article" className="block px-6 py-2 fontLoginn md:text-1xl 2xl:text-2xl md:px-28 2xl:px-60">Article</a>
+          <div className="flex flex-col md:flex-row mx-auto gap-x-12">
+            <a href="/" className="block px-6 py-2 fontLoginn md:text-1xl 2xl:text-2xl">Home</a>
+            <a href="/about" className="block px-6 py-2 fontLoginn md:text-1xl 2xl:text-2xl">About</a>
+            <a href="/article" className="block px-6 py-2 fontLoginn md:text-1xl 2xl:text-2xl">Article</a>
+            <a href="/tools" className="block px-6 py-2 fontLoginn md:text-1xl 2xl:text-2xl">Tools</a>
           </div>
           <div className="flex flex-col md:flex-row px-4 py-4">
             <button className={`bgWarna text-white rounded-xl w-36 md:h-9 md:w-32 fontLoginn text-md hover:shadow-md mr-4`} >  </button>

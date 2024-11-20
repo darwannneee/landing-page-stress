@@ -26,12 +26,12 @@ const SectionTitle = ({ title }: { title: string }) => (
 );
 
 const TeamList = ({ data, title }: { data: any[], title: string }) => (
-    <div className="mx-10 pt-10">
+    <div className="pt-5">
         <SectionTitle title={title} />
-        <div className="md:grid grid-cols-4 mt-5 gap-8">
+        <div className="grid md:grid-cols-3 gap-y-8 md:gap-x-10 items-center justify-center pt-8">
             {data.map((person) => (
-                <div key={person.discord} className="w-[180px]">
-                    <img src={person.url_profile} className="w-[180px] h-[180px] bg-center bg-cover" />
+                <div key={person.discord} className="">
+                    <img src={person.url_profile} className="bg-center bg-cover md:w-96 md:h-80" />
                     <div className="flex pt-2">
                         <h1 className="text-sm flex-grow">{person.name}</h1>
                         <div className="flex">
@@ -62,13 +62,13 @@ export default function About() {
                     <div className="text-white md:mx-12 mx-8 py-8 2xl:py-10">
                         <div>
                             <h1 className="md:text-[40px] text-4xl 2xl:text-6xl">What is...</h1>
-                            <h1 className="md:text-[12px] text-xs mx-2 pt-2 md:pt-0 2xl:text-xl 2xl:pt-4">
+                            <h1 className="md:text-[12px] text-xs mx-2 pt-5 md:pt-3 2xl:text-xl 2xl:pt-4">
                                 Stress Capital, headquartered in Indonesia, is a dynamic decentralized autonomous organization DAO specializing in the crypto and NFT sectors. Our primary goal is to facilitate the inclusion of Indonesian individuals into the cryptocurrency space by offering educational resources on the broader crypto ecosystem and fostering participation in international projects. Our diverse team of 32 professionals, including the admin, moderator, and collaboration manager, works cohesively to achieve these objectives.
                             </h1>
                         </div>
                         <div className="pt-8">
                             <h1 className="md:text-[40px] text-4xl 2xl:text-6xl">Our History</h1>
-                            <h1 className="md:text-[12px] text-xs mx-2 pt-2 md:pt-0 2xl:text-xl 2xl:pt-4">
+                            <h1 className="md:text-[12px] text-xs mx-2 pt-2 md:pt-3 2xl:text-xl 2xl:pt-4">
                                 Stress Capital, headquartered in Indonesia, is a dynamic decentralized autonomous organization (DAO) specializing in the crypto and NFT sectors. Our primary goal is to facilitate the inclusion of Indonesian individuals into the cryptocurrency space by offering educational resources on the broader crypto ecosystem and fostering participation in international projects. Our diverse team of 32 professionals, including the founder, admin, moderator, and collaboration manager, works cohesively to achieve these objectives.
                                 <br />
                                 <br />
@@ -79,8 +79,7 @@ export default function About() {
                 </div>
             </div>
             <div className="bg-center bg-cover" style={{backgroundImage: `url(${Banner2.src})`, backgroundSize: `1920px 1090px`, backgroundRepeat: `no-repeat`}}>
-                <div className="mx-20 md:mx-56 text-white pt-96 md:pt-10">
-                    <h1 className="text-4xl">Team</h1>
+                <div className="mx-20 md:mx-56 text-white pt-96 2xl:pt-[300px] md:pt-10">
                     <TeamList data={TeamData} title="Admin" />
                     <TeamList data={ModeratorData} title="Moderator" />
                     <TeamList data={Developer} title="Developer" />
